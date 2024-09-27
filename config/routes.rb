@@ -11,10 +11,4 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-  get "/articles", to: "articles"
-  get "/articles/:id", to: "articles#show"
-
-  get "/articles/new", to: "articles#new"
-  post "/articles/", to: "articles#create"
-
 end
